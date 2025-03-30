@@ -17,7 +17,7 @@ document.getElementById('submit').addEventListener('click',()=>{
 	document.getElementById("isbn").value = "";
 });
 document.getElementById("book-list").addEventListener("click",(event)=>{
-	if(event.target.classList.contain("delete")){
+	if(event.target.classList.contains("delete")){
 		event.target.parentElement.remove();
 	}
 })
