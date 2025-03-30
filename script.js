@@ -16,8 +16,8 @@ document.getElementById('submit').addEventListener('click',()=>{
 	document.getElementById("author").value = "";
 	document.getElementById("isbn").value = "";
 });
-document.getElementById("#book-list").addEventListener("click",(event)=>{
+document.getElementById('#book-list').addEventListener('click',(event)=>{
 	if(event.target.classList.contains("delete")){
-		event.target.closest('tr').remove();
+		event.target.parentElement.parentElement.remove();
 	}
 })
