@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+input{
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+button{
+	background-color: #2e80ec;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 3px;
+	color: #fff;
+}
+table{
+	width: 100%;
+	margin-top: 20px;
+	text-align: start;
+}
+th{
+	font-weight: 600;
+	border-bottom: 3px solid #000;
+	text-align: start;
+}
+td{
+	text-align: start;
+}
+.delete{
+	font-size: 15px;
+	background-color: red;
+}
